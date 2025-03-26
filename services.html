@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serviços profissionais de contabilidade, consultoria fiscal e gestão empresarial - Artur Costa">
+    <title>Serviços - Artur Costa Contabilidade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-[Roboto] bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">
+                    Artur Costa
+                </a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600">Início</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-600">Sobre</a>
+                    <a href="services.html" class="text-blue-600">Serviços</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contacto</a>
+                </div>
+                <button class="md:hidden text-gray-600" id="mobile-menu-button">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="flex flex-col space-y-4 mt-4 pb-4">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600">Início</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-600">Sobre</a>
+                    <a href="services.html" class="text-blue-600">Serviços</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 bg-blue-600">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Nossos Serviços</h1>
+            <p class="text-xl text-white opacity-90">Soluções completas para o seu negócio</p>
+        </div>
+    </section>
+
+    <!-- Main Services -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <!-- Contabilidade -->
+            <div class="mb-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center section-fade">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-3xl font-bold mb-6">Contabilidade</h2>
+                    <p class="text-gray-600 mb-6">
+                        Oferecemos serviços completos de contabilidade para empresas de todos os portes,
+                        garantindo conformidade fiscal e financeira.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Processamento contábil completo</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Elaboração de demonstrações financeiras</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Relatórios gerenciais personalizados</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Controle de contas a pagar e receber</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+                         alt="Serviços de Contabilidade" 
+                         class="rounded-lg shadow-xl img-hover">
+                </div>
+            </div>
+
+            <!-- Consultoria Fiscal -->
+            <div class="mb-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center section-fade">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+                         alt="Consultoria Fiscal" 
+                         class="rounded-lg shadow-xl img-hover">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Consultoria Fiscal</h2>
+                    <p class="text-gray-600 mb-6">
+                        Orientação especializada para otimização tributária e cumprimento das obrigações fiscais.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Planejamento tributário estratégico</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Análise de enquadramento fiscal</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Recuperação de impostos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Assessoria em auditorias fiscais</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Gestão Empresarial -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center section-fade">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-3xl font-bold mb-6">Gestão Empresarial</h2>
+                    <p class="text-gray-600 mb-6">
+                        Consultoria estratégica para otimização e crescimento sustentável do seu negócio.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Análise de desempenho empresarial</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Planejamento estratégico</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Gestão de custos e orçamentos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Consultoria em processos organizacionais</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+                         alt="Gestão Empresarial" 
+                         class="rounded-lg shadow-xl img-hover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Serviços Complementares</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Recursos Humanos -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg section-fade">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-users text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Recursos Humanos</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li>Processamento de salários</li>
+                        <li>Gestão de benefícios</li>
+                        <li>Cumprimento de obrigações trabalhistas</li>
+                    </ul>
+                </div>
+
+                <!-- Análise Financeira -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg section-fade">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-chart-line text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Análise Financeira</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li>Indicadores de desempenho</li>
+                        <li>Projeções financeiras</li>
+                        <li>Análise de viabilidade</li>
+                    </ul>
+                </div>
+
+                <!-- Consultoria Digital -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg section-fade">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-laptop text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Consultoria Digital</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li>Implementação de sistemas</li>
+                        <li>Automação de processos</li>
+                        <li>Gestão documental digital</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-8">Pronto para impulsionar seu negócio?</h2>
+            <p class="text-white text-xl mb-8">Entre em contato conosco para uma consultoria personalizada</p>
+            <a href="contact.html" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition duration-300">
+                Solicitar Proposta
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Artur Costa</h3>
+                    <p class="mb-2">Contabilidade e Gestão Lda</p>
+                    <p class="text-gray-400">NIF: 513814361</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contacto</h3>
+                    <p class="mb-2">Rua Latino Coelho, Nº 64, 1º Esq.</p>
+                    <p class="mb-2">2775-225 Parede</p>
+                    <p>Cascais, Lisboa</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">CAE</h3>
+                    <p class="mb-2">69200 - Contabilidade, auditoria e consultoria fiscal</p>
+                    <p>70220 - Outras actividades de consultoria para os negócios e a gestão</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2024 Artur Costa - Contabilidade e Gestão Lda. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+<!-- Developed by: George Acioli-->
