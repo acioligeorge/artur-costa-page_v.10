@@ -1,32 +1,32 @@
-/* Custom styles to complement Tailwind CSS */
+/* Estilos personalizados para complementar o Tailwind CSS */
 
-/* Smooth scroll behavior */
+/* Comportamento de rolagem suave */
 html {
     scroll-behavior: smooth;
 }
 
-/* Add padding to account for fixed header */
+/* Adiciona espaçamento para compensar o cabeçalho fixo */
 body {
     padding-top: 4rem;
 }
 
-/* Custom transitions */
+/* Transições personalizadas */
 .transition-all {
     transition: all 0.3s ease-in-out;
 }
 
-/* Custom hover effects for service cards */
+/* Efeitos personalizados de hover para os cartões de serviço */
 .service-card:hover {
     transform: translateY(-5px);
 }
 
-/* Custom styles for form inputs */
+/* Estilos personalizados para campos de formulário */
 .form-input:focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
 }
 
-/* Custom styles for mobile menu animation */
+/* Estilos personalizados para animação do menu móvel */
 @keyframes slideDown {
     from {
         transform: translateY(-10px);
@@ -43,12 +43,12 @@ body {
     animation: slideDown 0.3s ease-out forwards;
 }
 
-/* Custom styles for hero section */
+/* Estilos personalizados para a seção hero */
 .hero-overlay {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
 }
 
-/* Custom styles for images */
+/* Estilos personalizados para imagens */
 .img-hover {
     transition: transform 0.3s ease;
 }
@@ -57,7 +57,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Custom button styles */
+/* Estilos personalizados para botões */
 .btn-primary {
     transition: all 0.3s ease;
 }
@@ -67,7 +67,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Custom styles for section transitions */
+/* Estilos personalizados para transições de seções */
 .section-fade {
     opacity: 0;
     transform: translateY(20px);
@@ -79,7 +79,7 @@ body {
     transform: translateY(0);
 }
 
-/* Responsive typography adjustments */
+/* Ajustes responsivos de tipografia */
 @media (max-width: 768px) {
     h1 {
         font-size: 2.5rem;
@@ -91,9 +91,6 @@ body {
         font-size: 1.5rem;
     }
 }
-
-
-
 
 
 
